@@ -1,0 +1,35 @@
+.cover {
+    border-bottom: 1px solid #c0c0c0;
+    margin: 3px;
+}
+
+.name,#pre_name {
+    font-weight: bold;
+    width: 8em;
+}
+
+.mes,#pre_mes {
+    margin-left: 30px;
+}
+
+.img,#pre_img {
+    width: 200px;
+    margin: 10px;
+}
+
+.like {
+    margin-right: 10px;
+}
+
+.reply {
+    color: #c0c0c0;
+    margin-left: 30px;
+    font-style: italic;
+    font-family: Times New Roman, "ＭＳ Ｐゴシック";
+}
+
+#preview {
+    border-top: 1px solid #c0c0c0;
+    border-bottom: 1px solid #c0c0c0;
+    margin: 3px;
+}

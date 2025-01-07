@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>掲示板</title>
+    <script src="./bbs.js" defer></script>
+    <link rel="stylesheet" href="./bbs.css">
+</head>
+<body>
+    <div id="bbs"></div>
+    <div id="form">
+        <label for="name">名前：</label><br>
+        <input type="text" id="name"><br>
+        <label for="message">メッセージ：</label><br>
+        <textarea type="text" id="message"></textarea><br>
+        <label for="image">画像：</label><br>
+        <input type="file" id="image" accept="image/jpeg, image/png">
+        <button type="button" id="post">送信</button>
+    </div>
+    
+    <div id ="preview">
+        <details>
+            <summary id="pre">プレビュー</summary><br>
+            <span id="pre_name"></span><br>
+            <div id="pre_reply"></div><br>
+            <p id="pre_mes"></p>
+            <br>
+            <img id="pre_img" src="">
+        </details>
+    </div>
+    
+    <div id="check">
+        <button type="button" id="check">投稿チェック</button>
+    </div>
+</body>
+</html>
